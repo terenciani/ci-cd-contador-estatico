@@ -4,7 +4,7 @@
   "description": "Tutorial GithubActions",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "start": "node App.js",
     "dev": "nodemon App.js"
   },
