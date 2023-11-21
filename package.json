@@ -1,0 +1,25 @@
+{
+  "name": "ci-cd-contador-estatico",
+  "version": "1.0.0",
+  "description": "Tutorial GithubActions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node App.js",
+    "dev": "nodemon App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terenciani/ci-cd-contador-estatico.git"
+  },
+  "author": "Marcelo F. Terenciani",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}
